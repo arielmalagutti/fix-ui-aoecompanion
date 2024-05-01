@@ -1,0 +1,15 @@
+{
+  "name": "BO CSS",
+  "description": "CSS para pagina Build Order Guides",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.aoecompanion.com/b/*",
+        "https://*.aoecompanion.com/build-guides/*"
+      ],
+      "css": ["bo.css"]
+    }
+  ]
+}

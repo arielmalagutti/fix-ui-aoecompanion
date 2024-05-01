@@ -1,0 +1,26 @@
+.build-order-container,
+.build-order-container > .container__inner {
+  display: flex !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  justify-content: normal !important;
+}
+
+.build-order-container > .container__inner {
+  height: 1000px !important;
+}
+
+.build-order-container > .container__inner > .build-order {
+  height: 100% !important;
+
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: wrap !important;
+  justify-content: normal !important;
+}
+
+.build-order-container > .container__inner > .build-order > div {
+  margin-left: 16px !important;
+}
